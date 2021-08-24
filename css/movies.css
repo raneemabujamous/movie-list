@@ -1,0 +1,124 @@
+body{
+width :1200px;
+margin :auto;
+font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #39A2DB;
+    text-align: center;
+    padding: 20px;
+
+    height: 50px;
+    color: #E8F0F6;
+    font-size: 30px;
+
+}
+footer{
+    background-color: #053742;
+    color: #E8F0F6;
+    height: 20px;
+    padding: 20px;
+
+    text-align: center;
+    position: relative;
+    top: 300px;
+
+}
+
+h1{ text-align: center;
+    text-transform: capitalize;
+}
+#clear{
+    background-color: #a10909;
+    width: 100px;
+    border: none;
+    padding: 10px;
+
+}
+#submit{
+    background-color: #71c7ec;
+    width: 100px;
+    border: none;
+    padding: 10px;
+
+}
+p{
+    text-align: center;
+    text-transform: capitalize;
+
+   
+}
+img{
+    width: 50px;
+}
+fieldset{
+    border: dotted;
+    width: 20%;
+    padding:20px;
+    margin: 20px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    border-radius: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+
+}
+input{
+    width: 400px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+
+
+}
+select{
+    width: 400px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+
+
+}
+table{
+    width: auto;
+    margin-right: 150px;
+    margin-left: auto;
+    border: hidden;
+    position: relative;
+    bottom: 200px;
+
+    border-collapse:separate;
+    border-spacing:0 7px;
+
+}
+
+tr:nth-child(even)
+{
+  background-color: #77ACF1;
+  padding:20px;
+  margin: 20px;
+  text-transform: capitalize;
+
+} 
+
+tr:nth-child(odd){
+
+  background-color: #A2DBFA;
+  padding:20px;
+  margin: 20px;
+
+  text-transform: capitalize;
+
+}
+td{
+    width: 80px;
+height: 50px;
+padding:10px;
+margin: 10px;
+
+text-transform: capitalize;
+
+
+}

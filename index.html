@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/movies.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header> <h1>my movie list</h1></header>
+    <main> 
+        <fieldset> 
+            <legend>New Movies</legend>
+        <form id="form">
+<label for="name">Name</label>
+<input type="text" id="name" required>
+
+<label for="image">image</label>
+<select id="image" required>
+    <option disabled selected value=""></option>
+    <option value="action.png">Action</option>
+    <option value="adventure.png">adventure</option>
+    <option value="animation.png">animation</option>
+    <option value="comedy.png">comedy</option>
+    <option value="detective.png">detective</option>
+    <option value="fantasy.png">fantasy</option>
+    <option value="history.png">history</option>
+    <option value="horror.png">horror</option>
+    <option value="musical.png">musical</option>
+    <option value="pirate.png">pirate</option>
+    <option value="romantic.png">romantic</option>
+    <option value="sci-fi.png">sci-fi</option>
+    <option value="war.png">war</option>
+    <option value="western.png">western</option>
+
+</select>
+
+<label for="relase">Relase</label>
+<input type="text" id="relase" required> <br>
+
+<button id="submit" value="submit">submit</button>
+<button id="clear">clear</button>
+        </form>
+    </fieldset>
+        <table id="table"></table>
+
+    </main>
+    <footer> <p>all right reserved 2021 @ ASCA</p></footer>
+    <script src="app.js"></script>
+</body>
+</html>
